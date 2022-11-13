@@ -1,0 +1,244 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Engineering phonon mediated nuclear spin interactions in trapped ion crystal
+\end_layout
+
+\begin_layout Standard
+The system studied is modelled by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+H & =\Delta_{{\rm M}}b^{\dagger}b+\Omega\left(S_{x}^{A}-S_{x}^{B}\right)+\delta\left(S_{z}^{A}-S_{z}^{B}\right)+g\left(\left(S_{A}^{+}+S_{B}^{+}\right)b+\text{h.c.}\right),\\
+\mathcal{L}_{\rho} & =\frac{\kappa}{2}\left(2a\rho a^{\dagger}-\left\{ a^{\dagger}a,\rho\right\} \right).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The SDE system is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+{\rm d}S_{x}^{A} & =\left(2gb_{{\rm Im}}S_{z}^{A}-\delta S_{y}^{A}\right){\rm d}t,\\
+{\rm d}S_{y}^{A} & =\left(-2gb_{{\rm Re}}S_{z}^{A}+\delta S_{x}^{A}-\Omega S_{z}^{A}\right){\rm d}t,\\
+{\rm d}S_{z}^{A} & =2g\left(b_{{\rm Re}}S_{y}^{A}-b_{{\rm Im}}S_{x}^{A}+\Omega S_{y}^{A}\right){\rm d}t,\\
+{\rm d}S_{x}^{B} & =\left(2gb_{{\rm Im}}S_{z}^{B}+\delta S_{y}^{B}\right){\rm d}t,\\
+{\rm d}S_{y}^{B} & =\left(-2gb_{{\rm Re}}S_{z}^{B}-\delta S_{x}^{B}+\Omega S_{z}^{B}\right){\rm d}t,\\
+{\rm d}S_{z}^{B} & =2g\left(b_{{\rm Re}}S_{y}^{B}-b_{{\rm Im}}S_{x}^{B}-\Omega S_{y}^{B}\right){\rm d}t,\\
+{\rm d}b_{{\rm Re}} & =\left(\Delta_{M}b_{{\rm Im}}-g\left(S_{y}^{A}+S_{y}^{B}\right)-\frac{\kappa}{2}b_{{\rm Re}}\right){\rm d}t+\sqrt{\frac{\kappa}{4}}{\rm d}W_{x},\\
+{\rm d}b_{{\rm Im}} & =\left(-\Delta_{M}b_{{\rm Re}}-g\left(S_{x}^{A}+S_{x}^{B}\right)-\frac{\kappa}{2}b_{{\rm Im}}\right){\rm d}t+\sqrt{\frac{\kappa}{4}}{\rm d}W_{y}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With initial values that follow the distributions: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+S_{x}^{A}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ 1/2\right\} ;\left\{ 1\right\} \right),\\
+S_{y}^{A}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ 1/2,-1/2\right\} ;\left\{ \frac{1}{2},\frac{1}{2}\right\} \right),\\
+S_{z}^{A}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ 1/2,-1/2\right\} ;\left\{ \frac{1}{2},\frac{1}{2}\right\} \right),
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+S_{x}^{B}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ -1/2\right\} ;\left\{ 1\right\} \right),\\
+S_{y}^{B}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ 1/2,-1/2\right\} ;\left\{ \frac{1}{2},\frac{1}{2}\right\} \right),\\
+S_{z}^{B}\left(0\right) & \sim\mathcal{U}_{N/2}\left(\left\{ 1/2,-1/2\right\} ;\left\{ \frac{1}{2},\frac{1}{2}\right\} \right),\\
+b_{{\rm Re}} & \sim\mathcal{N}\left(\mu=0,\sigma=\sqrt{\frac{\bar{n}_{th}}{2}+\frac{1}{4}}\right),\\
+b_{{\rm Im}} & \sim\mathcal{N}\left(\mu=0,\sigma=\sqrt{\frac{\bar{n}_{th}}{2}+\frac{1}{4}}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The adiabatic elimination condition implies that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+0 & =\Delta_{M}b_{{\rm Im}}-g\left(S_{y}^{A}+S_{y}^{B}\right)-\frac{\kappa}{2}b_{{\rm Re}},\\
+0 & =-\Delta_{M}b_{{\rm Re}}-g\left(S_{x}^{A}+S_{x}^{B}\right)-\frac{\kappa}{2}b_{{\rm Im}}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So we have that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+b_{{\rm Re}} & =-\frac{g}{\Delta_{{\rm M}}^{2}+\frac{\kappa^{2}}{4}}\left(\frac{\kappa}{2}\left(S_{y}^{A}+S_{y}^{B}\right)+\Delta_{{\rm M}}\left(S_{x}^{A}+S_{x}^{B}\right)\right),\\
+b_{{\rm Im}} & =\frac{g}{\Delta_{{\rm M}}^{2}+\frac{\kappa^{2}}{4}}\left(\Delta_{{\rm M}}\left(S_{y}^{A}+S_{y}^{B}\right)-\frac{\kappa}{2}\left(S_{x}^{A}+S_{x}^{B}\right)\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $\Delta_{{\rm M}}=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+b_{{\rm Re}} & =-\frac{2g}{\kappa}\left(S_{y}^{A}+S_{y}^{B}\right),\\
+b_{{\rm Im}} & =-\frac{2g}{\kappa}\left(S_{x}^{A}+S_{x}^{B}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $\kappa=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+b_{{\rm Re}} & =-\frac{g}{\Delta_{{\rm M}}}\left(S_{x}^{A}+S_{x}^{B}\right),\\
+b_{{\rm Im}} & =\frac{g}{\Delta_{{\rm M}}}\left(S_{y}^{A}+S_{y}^{B}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+We could scale using:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\Omega_{\alpha c} & =\frac{N_{\alpha}g^{2}}{\sqrt{\Delta^{2}+\frac{\kappa^{2}}{4}}}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
